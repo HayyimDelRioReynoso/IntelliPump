@@ -145,7 +145,7 @@ void setup() {
     
     Serial.println(tinaco);
 
-    server.send(200, "text/html", "Ángulos recibidos");
+    server.send(200, "text/html", "Distancia recibida");
   });
 
   // Iniciar el servidor
